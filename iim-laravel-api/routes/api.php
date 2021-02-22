@@ -17,34 +17,35 @@ use App\Models\Task;
 //Route::middleware('auth:api')->get('/user', function (Request $request) {
 //    return $request->user();
 //});
+Route::middleware('api_token')->group(function (){
 
-//nous retourne toute les taches
-Route::get('tasks', function (){
-    return Task::all();
-});
+    //nous retourne toute les taches
+    Route::get('tasks', function (){
+        return Task::all();
+    });
 
-//nous retourne  une taches
-Route::get('tasks/{taskid}', function ($taskid){
-    return Task::findOrFail($taskid);
-});
-
-
-// pour update
-Route::put('tasks/{taskid}', function ($taskid, Request $request){
-    $task = Task::findOrFail($taskid);
-    $task->update($request -> all());
-    return $task;
-
-//    dd($task->update);
-
-});
+    //nous retourne  une taches
+    Route::get('tasks/{taskid}', function ($taskid){
+        return Task::findOrFail($taskid);
+    });
 
 
-Route::delete('tasks/{taskid}', function ($taskid){
-    return Task::findOrFail($taskid) -> delete();
+    // pour update
+    Route::put('tasks/{taskid}', function ($taskid, Request $request){
+        $task = Task::findOrFail($taskid);
+        $task->update($request -> all());
+        return $task;
+    });
 
-});
-// créer une taches
-Route::post('tasks', function (request $request){
-    return Task::create($request -> all());
+    // pour delete task
+    Route::delete('tasks/{taskid}', function ($taskid){
+        return Task::findOrFail($taskid) -> delete();
+
+    });
+
+    // créer une taches
+    Route::post('tasks', function (request $request){
+        return Task::create($request -> all());
+    });
+
 });
