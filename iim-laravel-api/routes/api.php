@@ -20,31 +20,31 @@ use App\Models\Task;
 Route::middleware('api_token')->group(function (){
 
     //nous retourne toute les taches
-    Route::get('tasks', function (){
+    Route::get('/tasks', function (){
         return Task::all();
     });
 
     //nous retourne  une taches
-    Route::get('tasks/{taskid}', function ($taskid){
+    Route::get('/tasks/{taskid}', function ($taskid){
         return Task::findOrFail($taskid);
     });
 
 
     // pour update
-    Route::put('tasks/{taskid}', function ($taskid, Request $request){
+    Route::put('/tasks/{taskid}', function ($taskid, Request $request){
         $task = Task::findOrFail($taskid);
         $task->update($request -> all());
         return $task;
     });
 
     // pour delete task
-    Route::delete('tasks/{taskid}', function ($taskid){
+    Route::delete('/tasks/{taskid}', function ($taskid){
         return Task::findOrFail($taskid) -> delete();
 
     });
 
     // créer une taches
-    Route::post('tasks', function (request $request){
+    Route::post('/tasks', function (request $request){
         return Task::create($request -> all());
     });
 
