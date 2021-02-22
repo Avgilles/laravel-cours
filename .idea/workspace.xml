@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5367ffea-8be9-404e-95c9-45c55fe745ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/iim-laravel-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/iim-laravel-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-2/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-2/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-2/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-2/config/auth.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,11 +149,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614005646413</updated>
-      <workItem from="1614005647983" duration="337000" />
+      <workItem from="1614005647983" duration="824000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1614006533467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614006533467" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1614006325028">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614006325028" />
   </component>
 </project>
