@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4b9dc5d2-497f-46fb-a824-2116d0aebb10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +173,7 @@
       <updated>1613989570690</updated>
       <workItem from="1613989572076" duration="1102000" />
       <workItem from="1613990703546" duration="3295000" />
-      <workItem from="1613997962706" duration="4974000" />
+      <workItem from="1613997962706" duration="6212000" />
     </task>
     <servers />
   </component>
