@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5367ffea-8be9-404e-95c9-45c55fe745ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iim-symfony-api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/iim-symfony-api/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iim-symfony-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/iim-symfony-api/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iim-symfony-api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/iim-symfony-api/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iim-symfony-api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/iim-symfony-api/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iim-symfony-api/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/iim-symfony-api/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iim-symfony-api/src/Controller/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/iim-symfony-api/src/Controller/ApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iim-symfony-api/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/iim-symfony-api/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614005646413</updated>
-      <workItem from="1614005647983" duration="13075000" />
+      <workItem from="1614005647983" duration="13771000" />
     </task>
     <servers />
   </component>
