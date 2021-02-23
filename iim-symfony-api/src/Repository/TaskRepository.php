@@ -21,6 +21,8 @@ class TaskRepository extends ServiceEntityRepository
 
     public function  findAllAsArray(){
         return $this->createQueryBuilder('t')
+//            ->where('t.done = done')
+//            ->setParameter('done', 0)
             ->getQuery()
             ->getArrayResult();
     }

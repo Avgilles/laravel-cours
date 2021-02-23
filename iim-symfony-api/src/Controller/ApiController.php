@@ -13,10 +13,20 @@ use Symfony\Component\Serializer\SerializerInterface;
  */
 class ApiController extends AbstractController
 {
+
+   /* public function index(TaskRepository $taskRepository,SerializerInterface $serialiser): Response
+    {
+//      $task = $taskRepository -> findAll();
+//      $json = $serialiser->serialize($task, 'json');
+//      return new Response($json);
+
+        $task = $taskRepository-> findAllAsArray();
+        return $this->json($task);
+    }*/
     /**
      * @Route("/tasks", name="tasks")
      */
-    public function index(TaskRepository $taskRepository,SerializerInterface $serialiser): Response
+    public function index(TaskRepository $taskRepository): Response
     {
 //      $task = $taskRepository -> findAll();
 //      $json = $serialiser->serialize($task, 'json');
