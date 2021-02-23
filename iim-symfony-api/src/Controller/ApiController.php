@@ -18,9 +18,11 @@ class ApiController extends AbstractController
      */
     public function index(TaskRepository $taskRepository,SerializerInterface $serialiser): Response
     {
-      $task = $taskRepository -> findAll();
-      $json = $serialiser->serialize($task, 'json');
-      return new Response($json);
-//      return $this->json($task);
+//      $task = $taskRepository -> findAll();
+//      $json = $serialiser->serialize($task, 'json');
+//      return new Response($json);
+
+        $task = $taskRepository-> findAllAsArray();
+        return $this->json($task);
     }
 }
