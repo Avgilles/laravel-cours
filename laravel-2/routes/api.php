@@ -21,9 +21,9 @@ Route::group([
 
     ], function (){
     Route::post('login', [AuthController::class, 'login']);
-//    Route::post('api', [AuthController::class, 'logout']);
+    Route::post('api', [AuthController::class, 'logout']);
 
 });
 
-//Route::get('/tasks', [ApiController::class, 'tasks']);
+Route::get('/tasks', [ApiController::class, 'tasks']);
 
